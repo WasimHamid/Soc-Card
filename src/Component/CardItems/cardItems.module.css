@@ -1,0 +1,32 @@
+.cardContainer {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  flex: 0 0 32%;
+}
+
+.ul {
+  display: flex;
+}
+
+.card {
+  height: 400px;
+  text-align: left;
+  background: #fff;
+  left: 0;
+  clear: both;
+  transition: transform 0.2s ease-in-out;
+  vertical-align: top;
+  margin: 0 12px;
+  border: solid 1px black;
+  box-shadow: 4px 8px rgba(0, 0, 0, 0.4);
+  transition: 300ms;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 4px 4px #8b8b8b;
+}
+
+.innerContainer {
+  padding: 8px;
+}

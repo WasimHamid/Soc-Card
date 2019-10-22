@@ -1,0 +1,30 @@
+.ul {
+  display: grid;
+  grid-template-columns: 450px 450px 450px;
+  grid-gap: 20px;
+}
+@media (max-width: 700px) {
+  .ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.card {
+  font-family: Arial, Helvetica, sans-serif;
+  flex: 0 0 32%;
+  text-align: left;
+  background: #fff;
+  /* position: flex; */
+  display: grid;
+  /* left: 0; */
+  clear: both;
+  transition: transform 0.2s ease-in-out;
+  vertical-align: top;
+  margin: 0 12px;
+  border: solid 1px black;
+}
+
+.innerContainer {
+  padding: 10px;
+}
