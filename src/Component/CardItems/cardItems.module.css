@@ -8,6 +8,13 @@
   display: flex;
 }
 
+.Video {
+  position: absolute;
+  left: 50%;
+  top: 2%;
+}
+
+
 .card {
   height: 400px;
   text-align: left;
@@ -29,4 +36,11 @@
 
 .innerContainer {
   padding: 8px;
+}
+
+.NameTag {
+  letter-spacing: 2px;
+  text-shadow: 1px 1px grey;
+  font-size: 25px;
+  text-align: center;
 }

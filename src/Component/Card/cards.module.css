@@ -1,12 +1,16 @@
+
+
 .ul {
   display: grid;
   grid-template-columns: 450px 450px 450px;
   grid-gap: 20px;
+  list-style-type: none;
 }
 @media (max-width: 700px) {
   .ul {
     display: flex;
     flex-direction: column;
+    list-style-type: none;
   }
 }
 

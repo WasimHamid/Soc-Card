@@ -6,11 +6,9 @@ import CardItems from '../CardItems';
 
 const Cards = () => {
     return (
-        <ul className={Styles.ul}>
-
-
-            {graduates.map(({ name, tagline, quote, text, image, videoURL }, index) => (
-                <CardItems
+            <ul className={Styles.ul}>
+                {graduates.map(({ name, tagline, quote, text, image, videoURL }, index) => (
+                    <CardItems
                     key={index}
                     name={name}
                     tagline={tagline}
@@ -18,10 +16,9 @@ const Cards = () => {
                     text={text}
                     image={image}
                     videoURL={videoURL}
-                />
-            ))}
-
-        </ul>
+                    />
+                ))}
+            </ul>
     )
 
 }
